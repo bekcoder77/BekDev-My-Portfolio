@@ -79,6 +79,9 @@
             <a href="#home" class="navbar-link" data-nav-link>Home</a>
           </li>
           <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+          <li>
             <a href="#about" class="navbar-link" data-nav-link>About</a>
           </li>
 
@@ -151,45 +154,81 @@
       -->
       <section class="service text-center" aria-label="my services" id="service">
         <div class="container">
+
           <ul class="service-list">
+
             <li class="service-item">
               <div class="service-card">
+
                 <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
                 </div>
+
                 <h3 class="card-title">
+                  <a href="#">
+                   Student💪
+                  </a>
                 </h3>
+
               </div>
             </li>
 
             <li class="service-item">
               <div class="service-card">
+
                 <div class="card-icon">
-                 
+                  <img src="./assets/images/service-icon-2.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
                 </div>
 
                 <h3 class="card-title">
+                  <a href="#">
+                    Front-End  
+                    developer❤️
+                  </a>
                 </h3>
+
               </div>
             </li>
 
             <li class="service-item">
               <div class="service-card">
+
                 <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
                 </div>
+
                 <h3 class="card-title">
+                  <a href="#">
+                    UX <br>
+                    Design
+                  </a>
                 </h3>
+
               </div>
             </li>
 
             <li class="service-item">
               <div class="service-card">
+
                 <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
                 </div>
+
                 <h3 class="card-title">
+                  <a href="#">
+                  Freelance
+                  </a>
                 </h3>
+
               </div>
             </li>
+
           </ul>
+
         </div>
       </section>
 
@@ -213,13 +252,26 @@
                 </button>
               </li>
 
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awward">
+                  Awwards
+                </button>
+              </li>
+              <!-- <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="exhibition">
+                  Exhibition
+                </button>
+              </li> -->
+
 
             </ul>
+
+            <!-- ABOOUT ME -->
 
             <div class="tab-content active" data-tab-content="about">
               <div class="grid-list">
                 <figure class="about-banner img-holder" style="--width: ; --height: " data-tilt>
-                  <img src="./assets/images/about-banner.jpg" width="570" height="420" loading="lazy" alt="about banner"
+                  <img class="bek_dev" src="./assets/images/bekdev.jpg" width="570" height="420" loading="lazy" alt="about banner"
                     class="img-cover" />
                 </figure>
 
@@ -229,7 +281,7 @@
                   </h2>
 
                   <p class="section-text">
-                    My name is Otabek . I am a frontend developer from Uzbekistan.
+                    My name is Otabek . I am a Front-End developer from Uzbekistan.
                     I am from the city of Fergana. I am a
                     student of Fergana State University. I have been
                     interested in computers since childhood. And here I am. A year ago,
@@ -281,12 +333,12 @@
                 </div>
               </div>
             </div>
-
+            <!-- SKILLS -->
             <div class="tab-content" data-tab-content="skillset">
               <div class="grid-list">
                 <div class="skill-content">
                   <h3 class="h4 title section-title">
-                    We help to create visual
+                    My Skills
                   </h3>
                   <ul class="skill-list">
                     <li>
@@ -396,10 +448,10 @@
                 </div>
               </div>
             </div>
+            <!-- Awwards -->
             <div class="tab-content" data-tab-content="awward">
               <h3 class="h4 title section-title">
-                We’re a team of creatives who are excited about unique ideas
-                and help IT-tech companies to make identity by crafting UI/UX.
+               My Awwards
               </h3>
 
               <ul class="grid-list">
@@ -420,6 +472,14 @@
                     </figure>
                   </div>
                 </li>
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383" data-tilt>
+                      <img src="./assets/images/awward-2.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover" />
+                    </figure>
+                  </div>
+                </li>
 
                 
               </ul>
@@ -427,7 +487,7 @@
 
             <div class="tab-content" data-tab-content="exhibition">
               <ul class="grid-list">
-                <!-- <li>
+                <li>
                   <div class="exhibition-card">
                     <figure class="card-banner img-holder" style="--width: 376; --height: 200" data-tilt>
                       <img src="./assets/images/exhibition-1.jpg" width="376" height="200" loading="lazy" alt="image"
@@ -451,7 +511,7 @@
                       <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
                     </div>
                   </div>
-                </li> -->
+                </li>
               </ul>
             </div>
           </div>
@@ -480,7 +540,7 @@
         - #PROJECTS
       -->
 
-      <section class="section project" aria-label="my latest projects" id="project">
+       <section class="section project" aria-label="my latest projects" id="project">
         <ul class="slider-list">
           <li class="slider-item">
             <div class="project-card text-center">
@@ -488,9 +548,9 @@
                 <img src="./assets/images/project-1.jpg" width="1000" height="763" loading="lazy"
                   alt="Journey To Explore World" class="img-cover" />
 
-                <div href="#" class="btn btn:hover">
+                <div  class="btn btn:hover">
                   <p class="span  social">
-                    <a href="#">
+                    <a href="https://github.com/bekcoder77/Tourizm77">
                       <i class="fa-brands fa-github"> </i>
                     </a>
                     <a href="https://tourizmwebsite.netlify.app">
@@ -520,12 +580,12 @@
                 <img src="./assets/images/project-2.jpg" width="1000" height="763" loading="lazy"
                   alt="Project poster: Front End Development & Maintenance" class="img-cover" />
 
-                <div href="#" class="btn btn:hover">
+                <div class="btn btn:hover">
                   <p class="span  social">
-                    <a href="#">
+                    <a href="https://github.com/bekcoder77/Best-films">
                       <i class="fa-brands fa-github"> </i>
                     </a>
-                    <a href="https://tourizmwebsite.netlify.app">
+                    <a href="https://bestfilms11.netlify.app">
                       <i class="fa-solid fa-link"></i>
                     </a>
                     <i class="fa-solid fa-thumbs-up likes"></i>
@@ -552,12 +612,12 @@
                 <img src="./assets/images/project-3.jpg" width="1000" height="763" loading="lazy" alt="Get Your New
                     Book Collections" class="img-cover" />
 
-                <div href="#" class="btn btn:hover">
+                <div  class="btn btn:hover">
                   <p class="span  social">
-                    <a href="#">
+                    <a href="https://github.com/bekcoder77/Booken">
                       <i class="fa-brands fa-github"> </i>
                     </a>
-                    <a href="https://tourizmwebsite.netlify.app">
+                    <a href="https://bookenwebsite11.netlify.app">
                       <i class="fa-solid fa-link"></i>
                     </a>
                     <i class="fa-solid fa-thumbs-up likes"></i>
@@ -578,44 +638,69 @@
             </div>
           </li>
 
-          <!-- <li class="slider-item">
-              <div class="project-card text-center">
-                <div
-                  class="card-banner img-holder has-before"
-                  style="--width: 1000; --height: 763"
-                >
-                  <img
-                    src="./assets/images/project-4.jpg"
-                    width="1000"
-                    height="763"
-                    loading="lazy"
-                    alt="Project poster: Full Web Development Project With JavaScript"
-                    class="img-cover"
-                  />
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763">
+                <img src="./assets/images/project-4.jpg" width="1000" height="763" loading="lazy" alt="Get Your New
+                    Book Collections" class="img-cover" />
 
-                  <a href="#" class="btn btn:hover">
-                    <span class="span">Project Details</span>
+                <div  class="btn btn:hover">
+                  <p class="span  social">
+                    <a href="https://github.com/bekcoder77/Car-website">
+                      <i class="fa-brands fa-github"> </i>
+                    </a>
+                    <a href="https://carwebsite11.netlify.app">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                    <i class="fa-solid fa-thumbs-up likes"></i>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </p>
 
-                    <ion-icon
-                      name="arrow-forward"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </a>
-                </div>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Web, Product</p>
-
-                  <h3 class="title h3">
-                    <a href="#" class="card-title"
-                      >Full Web Development Project With JavaScript</a
-                    >
-                  </h3>
                 </div>
               </div>
-            </li>
 
-            <li class="slider-item">
+              <div class="card-content">
+                <p class="card-subtitle">Web Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">AUTO MAINTENANCE & REPAIR SERVICE</a>
+                </h3>
+              </div>
+            </div>
+          </li>
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763">
+                <img src="./assets/images/project-5.jpg" width="1000" height="763" loading="lazy" alt="Get Your New
+                    Book Collections" class="img-cover" />
+
+                <div  class="btn btn:hover">
+                  <p class="span  social">
+                    <a href="https://github.com/bekcoder77/Aperture-website">
+                      <i class="fa-brands fa-github"> </i>
+                    </a>
+                    <a href="https://aperturewebsite.netlify.app">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                    <i class="fa-solid fa-thumbs-up likes"></i>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Cloud Migration & AWS Services</a>
+                </h3>
+              </div>
+            </div>
+          </li>
+
+
+            <!-- <li class="slider-item">
               <div class="project-card text-center">
                 <div
                   class="card-banner img-holder has-before"
@@ -651,62 +736,127 @@
                 </div>
               </div>
             </li> -->
+
         </ul>
       </section>
 
-      <!-- 
-        - #TESTIMONIALS
-      -->
-
-      <section class="service text-center" aria-label="my services" id="service">
-        <div class="container">
-          <ul class="service-list">
-            <li class="service-item">
-              <div class="service-card">
-                <div class="card-icon">
-
-                </div>
-
-                <h3 class="card-title">
-
-                </h3>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-card">
-                <div class="card-icon">
-
-                </div>
-
-                <h3 class="card-title">
-
-                </h3>
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-card">
-                <div class="card-icon">
-
-                </div>
-
-
-              </div>
-            </li>
-
-            <li class="service-item">
-              <div class="service-card">
-                <div class="card-icon">
-
-                </div>
-
-
-              </div>
-            </li>
-          </ul>
+      <!-- <div class="cards">
+  
+        <div class="work_card mix web web1">
+          <div class="card-info">
+            <div class="card-info">
+              <a href=""
+                ><i class="fa-brands fa-github"
+                  ><span class="icon-info"> github</span></i
+                ></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-link"
+                  ><span class="icon-info"> link</span></i
+                ></a
+              >
+              <i class="fa-solid fa-thumbs-up likes"
+                ><span class="icon-info"> like</span></i
+              >
+            </div>
+          </div>
         </div>
-      </section>
+        <div class="work_card mix web web4">
+          <div class="card-info">
+            <div class="card-info">
+              <a href=""
+                ><i class="fa-brands fa-github"
+                  ><span class="icon-info"> github</span></i
+                ></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-link"
+                  ><span class="icon-info"> link</span></i
+                ></a
+              >
+              <i class="fa-solid fa-thumbs-up likes"
+                ><span class="icon-info"> like</span></i
+              >
+            </div>
+          </div>
+        </div>
+        <div class="work_card mix react react3">
+          <div class="card-info">
+            <div class="card-info">
+              <a href=""
+                ><i class="fa-brands fa-github"
+                  ><span class="icon-info"> github</span></i
+                ></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-link"
+                  ><span class="icon-info"> link</span></i
+                ></a
+              >
+              <i class="fa-solid fa-thumbs-up likes"
+                ><span class="icon-info"> like</span></i
+              >
+            </div>
+          </div>
+        </div>
+        <div class="work_card mix web web2">
+          <div class="card-info">
+            <div class="card-info">
+              <a href=""
+                ><i class="fa-brands fa-github"
+                  ><span class="icon-info"> github</span></i
+                ></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-link"
+                  ><span class="icon-info"> link</span></i
+                ></a
+              >
+              <i class="fa-solid fa-thumbs-up likes"
+                ><span class="icon-info"> like</span></i
+              >
+            </div>
+          </div>
+        </div>
+        <div class="work_card mix js js3">
+          <div class="card-info">
+            <div class="card-info">
+              <a href=""
+                ><i class="fa-brands fa-github"
+                  ><span class="icon-info"> github</span></i
+                ></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-link"
+                  ><span class="icon-info"> link</span></i
+                ></a
+              >
+              <i class="fa-solid fa-thumbs-up likes"
+                ><span class="icon-info"> like</span></i
+              >
+            </div>
+          </div>
+        </div>
+        <div class="work_card mix web web3">
+          <div class="card-info">
+            <div class="card-info">
+              <a href=""
+                ><i class="fa-brands fa-github"
+                  ><span class="icon-info"> github</span></i
+                ></a
+              >
+              <a href=""
+                ><i class="fa-solid fa-link"
+                  ><span class="icon-info"> link</span></i
+                ></a
+              >
+              <i class="fa-solid fa-thumbs-up likes"
+                ><span class="icon-info"> like</span></i
+              >
+            </div>
+          </div>
+        </div>
+      </div> -->
 
       <!-- 
         - #CONTACT
@@ -734,11 +884,9 @@
               </button>
             </form>
             <iframe
-              src="https://yandex.uz/map-widget/v1/? 
-ll=71.835898%2C40.381017&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgk3NzEyODU0NzUSF0_Ku3piZWtpc3Rvbiw gRmFyZ8q7b25hIgoN9pCPQhXLjiFC&tab=attractions&z=12.29"
-              width="560" height="380" frameborder="1" allowfullscreen="true" style="position:relative;">
-            </iframe>
-
+            src="https://yandex.uz/map-widget/v1/?         ll=71.835898%2C40.381017&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgk3NzEyODU0NzUSF0_Ku3piZWtpc3Rvbiw gRmFyZ8q7b25hIgoN9pCPQhXLjiFC&tab=attractions&z=12.29"
+            width="600" height="400" style="border: 0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
             <ul class="contact-list">
               <li class="contact-item">
                 <div class="item-icon">
