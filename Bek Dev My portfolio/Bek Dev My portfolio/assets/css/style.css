@@ -776,12 +776,19 @@ body.nav-active {
 
 .progress-bar {
   background-color: var(--bg-smoky-black);
-  height: 4px;
+  height: 12px;
+  border: 3px solid grey;
+  border-radius: 20px;
 }
-
+.my_skills{
+  margin-top: 50px;
+}
 .progress-fill {
-  background-color: var(--bg-white);
+  /* background-color: var(--bg-white); */
+  background-color: aquamarine;
   height: 100%;
+  border-radius: 10px;
+  
 }
 
 .interview-card {
@@ -857,7 +864,9 @@ body.nav-active {
 /*-----------------------------------*\
   #PROJECT
 \*-----------------------------------*/
-
+.type{
+  color: white;
+}
 .project-card .card-banner::before {
   top: 0;
   left: 0;
@@ -873,7 +882,33 @@ body.nav-active {
   opacity: 0.9;
   cursor: pointer;
 }
+.social{
+  font-size: 22px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social i.like-active{
+  color: red;
+  font-size: 24px;
+  animation: anime 0.5s ease-in;
 
+}
+@keyframes anime {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: left;
+  }
+  50% {
+    transform: rotate(-30deg);
+    transform-origin: left;
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: left;
+  }
+}
 .project-card .btn {
   position: absolute;
   top: 50%;

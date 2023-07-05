@@ -18,6 +18,20 @@ window.addEventListener("DOMContentLoaded", function () {
 /**
  * add event on multiple elements
  */
+const likes=document.querySelectorAll(".likes")
+
+likes.forEach(like=>{
+  like.addEventListener("click", ()=>{
+    like.classList.toggle("like-active");
+  })
+  
+})
+
+// const like = document.querySelector(".like")
+// like.addEventListener("click",()=>{
+//     like.classList.toggle("like-active");
+
+// })
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
