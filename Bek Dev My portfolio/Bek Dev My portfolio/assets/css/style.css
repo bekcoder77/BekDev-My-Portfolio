@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2023 Khalimov Otabek
  */
 
 /*-----------------------------------*\
@@ -542,7 +542,7 @@ body.nav-active {
   display: grid;
   gap: 50px;
 }
-.hero-content h2 span{
+.hero-content h2 span {
   font-size: 64px;
   font-weight: 500;
 }
@@ -551,38 +551,40 @@ body.nav-active {
 
   font-size: 38px;
   font-weight: 600;
-
 }
-.animated-text{
+.animated-text {
   height: 70px;
   overflow: hidden;
   position: relative;
   margin-bottom: 20px;
 }
 
-.animated-text h3{
+.animated-text h3 {
   color: chartreuse;
   font-size: 56px;
   font-weight: 700;
   line-height: 70px;
   letter-spacing: 1px;
 }
-.animated-text h3:nth-child(1){
-  animation: text-move 10s infinite
+.animated-text h3:nth-child(1) {
+  animation: text-move 10s infinite;
 }
 
-@keyframes text-move{
-  0%{
-      margin-top: 0;
-  } 25%{
-      margin-top: -70px;
-  } 50%{
-      margin-top: -140px;
-  } 75%{
-      margin-top: -70px;
+@keyframes text-move {
+  0% {
+    margin-top: 0;
   }
-  100%{
-      margin-top: 0;
+  25% {
+    margin-top: -70px;
+  }
+  50% {
+    margin-top: -140px;
+  }
+  75% {
+    margin-top: -70px;
+  }
+  100% {
+    margin-top: 0;
   }
 }
 .banner-outline {
@@ -781,7 +783,7 @@ body.nav-active {
   border: 3px solid grey;
   border-radius: 20px;
 }
-.my_skills{
+.my_skills {
   margin-top: 50px;
 }
 .progress-fill {
@@ -789,7 +791,6 @@ body.nav-active {
   background-color: aquamarine;
   height: 100%;
   border-radius: 10px;
-  
 }
 
 .interview-card {
@@ -866,171 +867,6 @@ body.nav-active {
   #PROJECT
 \*-----------------------------------*/
 
-/* .cards {
-  max-width: 1250px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 50px;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-.cards .work_card {
-  width: 350px;
-  height: 240px;
-  border-radius: 10px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: 100% !important;
-  background-position: center;
-  box-shadow: 0px 0px 10px 2px white;
-}
-.cards .work_card .card-info {
-  width: 60%;
-  height: 60%;
-  transition: all 0.5s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  opacity: 0;
-  position: relative;
-  border-radius: 10px;
-  color: white !important;
-}
-.cards .work_card .card-info div {
-  font-size: 25px;
-  margin-top: 100px;
-  transition: all 0.5s ease;
-  opacity: 0;
-  word-spacing: 4px;
-  position: relative;
-}
-.cards .work_card .card-info div a {
-  color: white !important;
-}
-.cards .work_card .card-info div .icon-info {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: all 0.5s ease !important;
-  font-weight: 100;
-  top: 0px;
-  color: red !important;
-}
-.cards .work_card .card-info div i:hover .icon-info {
-  opacity: 1;
-  top: 70px;
-}
-.icon-info{
-  font-size: 17px;
-  line-height: 30px;
-  letter-spacing: 5px;
-}
-.cards .work_card .card-info div .likes {
-  cursor: pointer;
-}
-.cards .work_card .card-info div .like-active {
-  color: red;
-  animation: anime 0.5s ease-in;
-}
-@keyframes anime {
-  0% {
-    transform: rotate(0deg);
-    transform-origin: left;
-  }
-  50% {
-    transform: rotate(-30deg);
-    transform-origin: left;
-  }
-  100% {
-    transform: rotate(0deg);
-    transform-origin: left;
-  }
-}
-.cards .work_card .card-info::before {
-  width: 40px;
-  height: 40px;
-  content: "";
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  position: absolute;
-  top: 10%;
-  left: 10%;
-}
-.cards .work_card .card-info::after {
-  width: 40px;
-  height: 40px;
-  content: "";
-  border-bottom: 2px solid white;
-  border-right: 2px solid white;
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
-}
-.cards .work_card:hover {
-  box-shadow: 10px 10px 20px 1px white;
-  background-size: 130% !important;
-  transition: all 0.5s ease;
-  transform: rotate(5deg) !important;
-}
-.cards .work_card:hover .card-info {
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-  color: black;
-  backdrop-filter: brightness(20%);
-}
-.cards .card-info:hover div {
-  margin: 0 auto !important;
-  opacity: 1;
-}
-.cards .react1 {
-  background-image: url(../img/magic-memory.png);
-}
-.cards .react2 {
-  background-image: url(../img/cooking.png);
-}
-.cards .react3 {
-  background-image: url(../img/react\ shopping\ card.png);
-}
-.cards .js1 {
-  background-image: url(../img/music\ app.png);
-  background-size: 90% !important;
-}
-.cards .js2 {
-  background-image: url(../img/weatherApp.png);
-}
-.cards .js3 {
-  background-image: url(../img/login.png);
-}
-.cards .game1 {
-  background-image: url(../img/dice\ game.png);
-}
-.cards .game2 {
-  background-image: url(../img/typing.png);
-}
-.cards .web1 {
-  background-image: url(../img/portfolio2.png);
-}
-.cards .web2 {
-  background-image: url(../img/codial.png);
-}
-.cards .web3 {
-  background-image: url(../img/kompyuter\ shop.png);
-}
-.cards .web4 {
-  background-image: url(../img/covid\ info.png);
-} */
-
-
-
-
-
 .project-card .card-banner::before {
   top: 0;
   left: 0;
@@ -1045,19 +881,18 @@ body.nav-active {
 .project-card .card-banner:is(:hover, :focus-within)::before {
   opacity: 0.9;
   cursor: pointer;
-} 
- .social{
+}
+.social {
   font-size: 22px;
   padding: 20px;
   display: flex;
   align-items: center;
   gap: 10px;
-} 
- .social i.like-active{
+}
+.social i.like-active {
   color: red;
   font-size: 24px;
   animation: anime 0.5s ease-in;
-
 }
 @keyframes anime {
   0% {
@@ -1072,7 +907,7 @@ body.nav-active {
     transform: rotate(0deg);
     transform-origin: left;
   }
-} 
+}
 .project-card .btn {
   position: absolute;
   top: 50%;
@@ -1312,14 +1147,12 @@ textarea.input-field {
 
   .service .container {
     max-width: unset;
-    
   }
 
   .service-list {
     display: flex;
     flex-wrap: wrap;
     /* display: none; */
-
   }
 
   .service-item {
@@ -1701,7 +1534,7 @@ textarea.input-field {
     gap: 10px;
   }
 }
-iframe{
+iframe {
   margin-right: 20px;
 }
 /**
